@@ -8,8 +8,8 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 
 # import data
-goog = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/GOOG_2010.csv")
-nflx = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/NFLX_2010.csv")
+goog = pd.read_csv("/Users/GOOG_2010.csv")
+nflx = pd.read_csv("/Users/NFLX_2010.csv")
 goog['Date'] = pd.to_datetime(goog.Date)
 nflx['Date'] = pd.to_datetime(nflx.Date)
 
