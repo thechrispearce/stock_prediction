@@ -3,11 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # import data
-goog = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/GOOG_2010.csv")
-nflx = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/NFLX_2010.csv")
-aapl = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/AAPL_2000.csv")
-amzn = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/AMZN_2000.csv")
-sp = pd.read_csv("/Users/chrispearce/Documents/Python Mini Projects/Datasets/S&P500_1990.csv")
+goog = pd.read_csv("/Users/GOOG_2010.csv")
+nflx = pd.read_csv("/Users/NFLX_2010.csv")
+aapl = pd.read_csv("/Users/AAPL_2000.csv")
+amzn = pd.read_csv("/Users/AMZN_2000.csv")
+sp = pd.read_csv("/Users/S&P500_1990.csv")
 sp['Date'] = pd.to_datetime(sp.Date)
 
 # buy/sell function
